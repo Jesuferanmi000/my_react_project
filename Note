@@ -1,0 +1,14 @@
+React is front-end Javascript library used for building user interface. It was developed by facebook and it is maintained by facebook and the open-source. It is the most popular and most used JS library amogst other libraries (React, JQuery, Svelte, Angular, Vue.js, Meteor, Ember.js).
+react.js also plays a major role in the most popular programming stack MERN. MERN stack is JS stack that is used for easier and faster deployment of full stack web Applications. You can create any web application with the MERN stack.
+DOM (Document Object Module).
+React uses a Virtual Dom. Virtual Dom is nothing but a JS object, It is a lightweight representation of the dom. Updating the virtual dom is much faster than updating the real dom. React only updates the section of the page where the change was made not the entire page.
+React JS is a component-based front-end library which means that all parts of a web application are divided into small components. A component is a small piece of the user interface. Every user interface is a tree of components. Components let you split the UI into independent reusable parts.
+In React, there are two types of components, the functinal components and class-based components.
+How to write Fuctional component, First we import React from the React Library, then we create a function which can be a normal function, arrow function or name function.
+        import React from 'react'
+        const Example = () => {
+            return <div>Hello World!</div> // This text syntax is neither a string nor HTML, it is JSX. JSX is used in react to decribe what the user interface should look like. JSX produces react elements, it forms the core of react syntax
+        }
+The two ways of setting up a React environment are:
+    ** Manually setting up all the things using webpack and babel.
+    ** Using the create-react-app command- You need to have Node js which is a JS runtime that allows you to execute JS code on the server. React is a   
